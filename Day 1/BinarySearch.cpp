@@ -16,11 +16,11 @@ class Bin
 				}
 				else if(A[mid]>num)		//if the element is less than the middle element
 				{
-					end = end-1;		//shift to left side by setting ending index 
+					end = mid-1;		//shift to left side by setting ending index 
 				}
 				else
 				{
-					start = start+1;	//else shift to right side by setting starting index
+					start = mid+1;	//else shift to right side by setting starting index
 				}
 			}
 			return -1; //if element not found return -1
