@@ -284,17 +284,11 @@ int main()
 				cin>>inschoice;
 				if(inschoice==1)
 				{
-					int element;
-					cout<<"Enter element to be deleted"<<endl;
-					cin>>element;
 					int num=deleteAtBeg();
 					cout<<num<<" is deleted"<<endl;
 				}
 				else if(inschoice==2)
 				{
-					int element;
-					cout<<"Enter element to be deleted"<<endl;
-					cin>>element;
 					int num=deleteAtEnd();
 					cout<<num<<" is deleted"<<endl;
 				}
@@ -333,4 +327,5 @@ int main()
 			display();
 		}
 	}while(choice!=7);
+
 }
