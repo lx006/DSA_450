@@ -294,7 +294,7 @@ int main()
 			int inschoice;
 			do
 			{
-				cout<<"1.Insert at Beginning"<<endl<<"2.Insert at End"<<endl<<"3.Insert at Position"<<endl;
+				cout<<"1.Delete at Beginning"<<endl<<"2.Delete at End"<<endl<<"3.Delete at Position"<<endl;
 				cin>>inschoice;
 				if(inschoice==1)
 				{
