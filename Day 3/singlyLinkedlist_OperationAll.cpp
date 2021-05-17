@@ -333,9 +333,4 @@ int main()
 			display();
 		}
 	}while(choice!=7);
-	
-	cout<<"1.Create Linked List"<<endl<<"2.Insert Options"<<endl<<"3.Insert at Beginning"<<endl
-	<<"4.Insert at End"<<endl<<"5.Insert at Position"<<endl<<"6.Delete at Beginning"<<endl<<"7.Delete at End"<<endl
-	<<"8.Delete given data"<<endl<<"9.Search given data"<<endl<<"10.Reverse given list"<<endl<<"11.Display"<<endl
-	<<"12.Exit";
 }
