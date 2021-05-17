@@ -89,9 +89,7 @@ void insertAtPos(int pos,int num)
 		temp=head;
 		if(pos==1)
 		{
-			head= (struct node *)malloc(sizeof(struct node));
-			head->next=temp;
-			head->data=num;
+			insertAtBeg(num);
 			return;
 			
 		} 
