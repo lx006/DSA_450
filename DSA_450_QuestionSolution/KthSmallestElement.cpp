@@ -8,6 +8,12 @@ public:
         
     }
     
+   /*  int kthSmallest(int arr[], int l, int r, int k) 
+    {
+        sort(arr,arr+r+1);
+        return (arr[k-1]);
+    } */
+    
     //min-heap method
    /* priority_queue<<int>,vector<int>,greater<int>> p ;
     for(int i=0;i<len;i++)
